@@ -1,0 +1,560 @@
+body {
+    background-image: linear-gradient(to bottom, #7673ee, #6083f6, #4b91fb, #389efd, #2faafd, #12b5ff, #00c0ff, #06caff, #00d7ff, #14e4fc, #3df0f7, #5ffbf1);
+    font-family: 'Playfair Display', serif;
+}
+
+/* estilos para la barra de navegación */
+a, li {
+    color: white;
+}
+
+header{
+    width: auto;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    padding: 10px;
+}
+
+.nav_links {
+    width: 600px;
+    padding: 1.5em;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    text-decoration: none;
+}
+
+.nav_links li a:hover {
+    color: rgb(105, 220, 166);
+}
+
+/* estilos para la seccion titulo */
+#seccionTitulo {
+    width: auto;
+    height: 350px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.fotoWilli {
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#titulo {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#titulo h1, p {
+    text-align: justify;
+}
+
+.redesSociales {
+    width: 500px;
+}
+
+.redesSociales ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redesSociales ul li a {
+    text-decoration: none;
+}
+
+.redesSociales ul li a:hover {
+    color: rgb(105, 220, 166);
+}
+
+/* estilos para la seccion sobreMi */
+#seccionSobreMi {
+    width: auto;
+    height: 250px;
+    /* background-color: rgb(180, 131, 39); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi {
+    width: 700px;
+}
+
+/* estilos para la seccion skills */
+#seccionSkills {
+    width: auto;
+    height: 270px;
+    /* background-color: rgb(107, 82, 35); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    width: 700px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contenedorCajas {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajas {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* estilos para la seccion hobbies */
+#seccionHobbies {
+    width: auto;
+    height: 270px;
+    /* background-color: rgb(182, 152, 94); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies {
+    width: 700px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contenedorCajasHobbies {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajasHobbies {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* estilos para la seccion formacionAcademica */
+#seccionFormacionAcademica {
+    width: auto;
+    height: 270px;
+    /* background-color: rgb(107, 82, 35); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacionAcademica {
+    width: 700px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.logoMiniatura {
+    width: 100px;
+    height: 100px;
+}
+
+/* estilos para la seccion experienciaprofesional */
+#seccionExperienciaProfesional {
+    width: auto;
+    height: 1000px;
+    /* background-color: rgb(228, 211, 176); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.experienciaProfesional {
+    width: 700px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.cajasExperiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.proyectosyLinks {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.botonesExperiencia {
+    display: flex;
+    flex-direction: row;
+}
+
+.botonRepositorio {
+    width: 100px;
+    height: 25px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 2px solid #7673ee;
+    background-color: #7673ee;
+}
+
+.botonRepositorio a {
+    text-decoration: none;
+    
+}
+
+.botonDemo {
+    width: 100px;
+    height: 25px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: #7673ee;
+    border: 2px solid #7673ee;
+}
+
+.botonDemo a {
+    text-decoration: none;
+}
+
+.cajasExperiencia img {
+    width: 500px;
+}
+
+/* estilos para la seccion contanto */
+#seccionContacto {
+    width: auto;
+    height: 500px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacto {
+    width: 700px;
+    height: 500px;
+}
+
+.formulario_contacto {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario_contacto input {
+    width: 500px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.formulario_contacto textarea {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.formulario_contacto button {
+    width: 100px;
+    height: 25px;
+    padding: 0px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid #7673ee;
+    background-color: #7673ee;
+    color: white;
+}
+
+.formulario_contacto label {
+    display: none;
+}
+
+/* estilo contenedor de input */
+.input-container {
+    margin-bottom: 0.6rem;
+}
+
+.input-container--invalid {
+    margin-bottom: 0.6rem;
+}
+  
+.input-message-error {
+    display: none;
+}
+  
+.input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+}
+
+footer {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* responsive disign */
+@media screen and (max-width: 800px) {
+    nav {
+        width: 100%;
+        height: 150px;
+        /* background-color: gray; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_links {
+        width: 400px;
+        padding-right: 1.5em;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #seccionTitulo {
+        width: auto;
+        height: 550px;
+        /* background-color: orange; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .fotoWilli {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 0;
+    }
+
+    #titulo {
+        width: 400px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    #seccionSobreMi {
+        width: auto;
+        height: 280px;
+        /* background-color: rgb(180, 131, 39); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sobreMi {
+        width: 400px;
+    }
+    
+    #seccionSkills {
+        width: auto;
+        height: 230px;
+        /* background-color: rgb(107, 82, 35); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills {
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .contenedorCajas {
+        width: 400px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #seccionHobbies {
+        width: auto;
+        height: 400px;
+        /* background-color: rgb(182, 152, 94); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hobbies {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contenedorCajasHobbies {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cajasHobbies {
+        margin-right: 40px;
+    }
+
+    #seccionFormacionAcademica {
+        width: auto;
+        height: 250px;
+        /* background-color: rgb(107, 82, 35); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formacionAcademica {
+        width: 400px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #seccionExperienciaProfesional {
+        width: auto;
+        height: 1100px;
+        /* background-color: rgb(228, 211, 176); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .experienciaProfesional {
+        width: 400px;
+        height: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .cajasExperiencia {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cajasExperiencia img {
+        width: 350px;
+    }
+
+    .proyectosyLinks {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 50px;
+    
+    }
+
+    #seccionContacto {
+        width: auto;
+        height: 400px;
+        /* background-color: bisque; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .contacto {
+        width: 400px;
+        height: 400px;
+    }
+
+    .formulario_contacto {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formulario_contacto input {
+        width: 400px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .formulario_contacto textarea {
+        width: 400px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+} 
+
